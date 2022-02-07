@@ -1,0 +1,6 @@
+clonar
+Para clonar un repositorio poner git clone "direccion ssh"
+para ver donde estan parados git  branch
+para crear y mover git chechout - b "nomrama"
+comando para solo movernos en rama git checkout "nombre de la rama"
+pra empujar el codigo a hub git push origin "nombre de larama"
