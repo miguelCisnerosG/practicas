@@ -2,18 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Estos son metadatos le estamos ordenando a google que solo tenga una escala inical para que no hagan zoom en el telefono -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Pokedex</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Conteo animado</title>
   </head>
   <body>
-    <h1>Pokedex</h1>
-   
-    <!-- Solo necesitamos un contenedor y ya lo demas lo haremos con JavaScript -->
+    <div class="counter">
+      <div class="nums">
+        <span class="in">3</span>
+        <span>2</span>
+        <span>1</span>
+        <span>0</span>
+      </div>
+      <h4>LISTOS!</h4>
+    </div>
 
-    <div class="poke-container" id="poke-container"></div>
-    
-    <!-- importo nuestro codigo JavaScript -->
-    <script src="script.js"></script>
+    <div class="final">
+      <h1>GO</h1>
+      <button id="replay">
+        <span>VOLVER A JUGAR</span>
+      </button>
+    </div>
+    <!-- mE SALGO UN DIRECTORIO Y ACCEDO AL JS Para eso son los ../ -->
+    <script src="../js/script.js"></script>
   </body>
 </html>
